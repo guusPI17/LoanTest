@@ -1,0 +1,25 @@
+# Dependencies (vendor is installed via Docker build; lock file is committed)
+app/vendor/
+
+# Runtime files
+app/runtime/
+!app/runtime/.gitkeep
+
+# PHP CS Fixer cache
+app/.php-cs-fixer.cache
+
+# PHPUnit cache
+app/.phpunit.result.cache
+
+# Environment overrides
+.env
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes (local overrides)
+docker-compose.override.yml
